@@ -26,7 +26,7 @@ namespace R01_BMI
             double a = cm / 100;
             double c = kg / (a * a);
             double rsl = Math.Round(c);
-            string kekka = rsl.ToString();
+            kekka.Text = rsl.ToString();
         }
     }
 }
