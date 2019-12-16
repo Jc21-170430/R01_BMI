@@ -17,7 +17,7 @@
             <Entry x:Name="CM" MaxLength="3" Placeholder="身長を入力"  />
             <Label Text="体重を入力(kg)" />
             <Entry x:Name="KG" MaxLength="2" Placeholder="体重を入力" />
-            <Button Text="BMIを計算する" />
+            <Button Text="BMIを計算する" Clicked="Button_Clicked" />
             <Label x:Name="kekka" Text="ボタンを押すとBMIを計算します" />
 
         </StackLayout>

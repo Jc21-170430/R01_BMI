@@ -26,7 +26,7 @@ namespace R01_BMI
             double a = cm / 100;
             double c = kg / (a * a);
             double rsl = Math.Round(c);
-            kekka.Text = rsl.ToString();
+            kekka.Text ="あなたのBMIは"+rsl.ToString()+"です！";
         }
     }
 }
