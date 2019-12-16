@@ -20,12 +20,13 @@ namespace R01_BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            
             double cm = double.Parse(CM.Text);
             double kg = double.Parse(KG.Text);
             double a = cm / 100;
             double c = kg / (a * a);
             double rsl = Math.Round(c);
-            DisplayAlert("結果", "あなたのBMIは" + rsl + "です！", "OK");
+            string kekka = rsl.ToString();
         }
     }
 }
